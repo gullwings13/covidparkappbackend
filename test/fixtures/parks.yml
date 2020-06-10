@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  boro: MyString
+  address: MyString
+  link: MyString
+  average_rating: 1
+  picture_url: MyString
+
+two:
+  name: MyString
+  boro: MyString
+  address: MyString
+  link: MyString
+  average_rating: 1
+  picture_url: MyString

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  masks: false
+  not_crowded: false
+  distancing: false
+  user: one
+  park: one
+
+two:
+  content: MyString
+  masks: false
+  not_crowded: false
+  distancing: false
+  user: two
+  park: two
