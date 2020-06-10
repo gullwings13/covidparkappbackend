@@ -1,4 +1,5 @@
-class ParksController < ApplicationController
+class Api::V1::ParksController < ApiController
+  skip_before_action :authenticate_user!, only: [:index, :show, :all]
   before_action :set_park, only: [:show, :update, :destroy]
 
   # GET /parks

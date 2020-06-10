@@ -1,10 +1,11 @@
-class PostsController < ApplicationController
+class Api::V1::PostsController < ApiController
+  skip_before_action :authenticate_user!, only: [:index, :show, :all]
   before_action :set_post, only: [:show, :update, :destroy]
 
   # GET /posts
   def index
     @posts = Post.all
-
+    print @posts
     render json: @posts
   end
 
