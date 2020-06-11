@@ -1,3 +1,3 @@
 class Park < ApplicationRecord
-    has_many :posts, dependent: :destroy
+    has_many :zones, dependent: :destroy
 end
