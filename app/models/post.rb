@@ -1,4 +1,4 @@
 class Post < ApplicationRecord
   belongs_to :user
-  belongs_to :park
+  belongs_to :zone
 end
