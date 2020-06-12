@@ -11,7 +11,9 @@ class Api::V1::ZonesController < ApiController
 
   # GET /zones/1
   def show
-    render json: @zone, include: :posts
+    # render json: @zone, include: :posts
+    # render json: @zone, :include => {:user => {:only => [:name, :picture_url]}}
+    render json: @zone, :include => {:posts => {:include => {:user => {:only => [:name, :picture_url]}}}}
   end
 
   # POST /zones
