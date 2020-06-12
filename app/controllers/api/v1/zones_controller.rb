@@ -11,7 +11,7 @@ class Api::V1::ZonesController < ApiController
 
   # GET /zones/1
   def show
-    render json: @zone
+    render json: @zone, include: :posts
   end
 
   # POST /zones
