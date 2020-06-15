@@ -14,6 +14,6 @@ def create
   end
 private
 def sign_up_params
-    params.permit(:email, :password, :password_confirmation)
+    params.permit(:email, :password, :password_confirmation, :location, :name, :picture_url )
   end
 end
