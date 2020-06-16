@@ -13,7 +13,7 @@ test_user1 = User.create(
     password:"password", 
     name:"Test", 
     location:Faker::Hipster.paragraph(sentence_count: 1), 
-    picture_url:"https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+    picture_url:"https://avatars.dicebear.com/api/avataaars/:wer.svg"
 )
 
 
