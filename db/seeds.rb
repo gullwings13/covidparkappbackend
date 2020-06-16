@@ -277,7 +277,7 @@ central_park.save()
         average_not_crowded:-1,
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Wien-Walk.jpg?mtime=20191115162025')
 
-stawberry = Zone.create(location: "W 72, 72 St Transverse, Lake",
+    Zone.create(location: "W 72, 72 St Transverse, Lake",
         name: "Strawberry Fields",
         park: central_park,
         average_rating: -1,
@@ -386,7 +386,7 @@ stawberry = Zone.create(location: "W 72, 72 St Transverse, Lake",
         average_not_crowded:-1,
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@sheep-meadow2.jpg?mtime=20190816105343')
 
-theMET = Zone.create(location: "East Drive, 79 St Transverse, 5th Ave To 86 St",
+    Zone.create(location: "East Drive, 79 St Transverse, 5th Ave To 86 St",
         name: "The Metropolitan Museum Of Art",
         park: central_park,
         average_rating: -1,
@@ -395,24 +395,103 @@ theMET = Zone.create(location: "East Drive, 79 St Transverse, 5th Ave To 86 St",
         average_not_crowded:-1,
         picture_url: 'https://lh3.googleusercontent.com/oeElhcz08ou_KACQV0FTlEfPtkYEz-kBA57YDNvMG8Dg9fij2L09VsIhhytVa9eu')
 
+def build_average_ratings_park update_park
+    update_park_masks_average = 0.0
+    update_park_distancing_average = 0.0
+    update_park_not_crowded_average = 0.0
 
+    update_park.zones.each do |zone|
+        update_park_masks_average += zone.average_masks
+        update_park_distancing_average += zone.average_distancing
+        update_park_not_crowded_average += zone.average_not_crowded
+    end
 
-10.times do
-    test_post1 = Post.create(
-        content: Faker::Hipster.paragraph(sentence_count: 2),
-        masks: Faker::Boolean.boolean(true_ratio: 0.7),
-        not_crowded: Faker::Boolean.boolean(true_ratio: 0.4),
-        distancing: Faker::Boolean.boolean(true_ratio: 0.4),
-        user: test_user1,
-        zone: theMET)
+    update_park_masks_average /= update_park.zones.length
+    update_park_distancing_average /= update_park.zones.length
+    update_park_not_crowded_average /= update_park.zones.length
+
+    update_park.average_masks = update_park_masks_average
+    update_park.average_distancing = update_park_distancing_average
+    update_park.average_not_crowded = update_park_not_crowded_average
+
+    update_park_rating = update_park_masks_average+update_park_distancing_average+update_park_not_crowded_average
+    update_park.average_rating = update_park_rating/3
+    update_park.save
 end
 
-10.times do
-    test_post1 = Post.create(
-        content: Faker::Hipster.paragraph(sentence_count: 2),
-        masks: Faker::Boolean.boolean(true_ratio: 0.7),
-        not_crowded: Faker::Boolean.boolean(true_ratio: 0.4),
-        distancing: Faker::Boolean.boolean(true_ratio: 0.4),
-        user: test_user1,
-        zone: stawberry)
+
+def build_average_ratings_zone update_zone
+
+    update_zone_masks_average = 0.0
+    update_zone_distancing_average = 0.0
+    update_zone_not_crowded_average = 0.0
+
+    update_zone.posts.each do |post|
+        if post.masks
+            update_zone_masks_average += 3.0
+        end
+        if post.distancing
+            update_zone_distancing_average += 3.0
+        end
+        if post.not_crowded
+            update_zone_not_crowded_average += 3.0
+        end
+    end
+
+    update_zone_masks_average /= update_zone.posts.length
+    update_zone_distancing_average /= update_zone.posts.length
+    update_zone_not_crowded_average /= update_zone.posts.length
+
+    update_zone.average_masks = update_zone_masks_average
+    update_zone.average_distancing = update_zone_distancing_average
+    update_zone.average_not_crowded = update_zone_not_crowded_average
+
+    update_zone_rating = update_zone_masks_average+update_zone_distancing_average+update_zone_not_crowded_average
+    update_zone.average_rating = update_zone_rating/3
+    update_zone.save
 end
+
+def add_posts_to_zones_in_park (update_park, update_user)
+    update_park.zones.each do |zone|
+
+        if (zone.name.length % 2 === 0)
+            10.times do
+                test_post1 = Post.create(
+                    content: Faker::Hipster.paragraph(sentence_count: 2),
+                    masks: Faker::Boolean.boolean(true_ratio: 0.9),
+                    not_crowded: Faker::Boolean.boolean(true_ratio: 0.9),
+                    distancing: Faker::Boolean.boolean(true_ratio: 0.9),
+                    user: update_user,
+                    zone: zone)
+            end
+        elsif(zone.name.length % 3 === 0)
+            10.times do
+                test_post1 = Post.create(
+                    content: Faker::Hipster.paragraph(sentence_count: 2),
+                    masks: Faker::Boolean.boolean(true_ratio: 0.6),
+                    not_crowded: Faker::Boolean.boolean(true_ratio: 0.5),
+                    distancing: Faker::Boolean.boolean(true_ratio: 0.5),
+                    user: update_user,
+                    zone: zone)
+            end
+        else
+            10.times do
+                test_post1 = Post.create(
+                    content: Faker::Hipster.paragraph(sentence_count: 2),
+                    masks: Faker::Boolean.boolean(true_ratio: 0.3),
+                    not_crowded: Faker::Boolean.boolean(true_ratio: 0.3),
+                    distancing: Faker::Boolean.boolean(true_ratio: 0.3),
+                    user: update_user,
+                    zone: zone)
+            end
+        end
+
+        build_average_ratings_zone(zone)
+    end
+    build_average_ratings_park(update_park)
+end
+
+
+
+
+add_posts_to_zones_in_park(central_park, test_user1)
