@@ -12,6 +12,7 @@ devise_for :users, controllers: { registrations: 'registrations' }
       resources :zones
       
       get '/profile' => 'users#profile'
+      put '/profile' => 'users#edit'
     end
   end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
