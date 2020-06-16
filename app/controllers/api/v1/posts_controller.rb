@@ -16,10 +16,12 @@ class Api::V1::PostsController < ApiController
 
   # POST /posts
   def create
-    @post = Post.new(post_params)
+    new_post_params = post_params
+    new_post_params[:user] = current_user   
+    @post = Post.new(new_post_params)
 
     if @post.save
-      render json: @post, status: :created, location: @post
+      render json: @post, status: :created
     else
       render json: @post.errors, status: :unprocessable_entity
     end
@@ -27,7 +29,9 @@ class Api::V1::PostsController < ApiController
 
   # PATCH/PUT /posts/1
   def update
-    if @post.update(post_params)
+    new_post_params = post_params
+    new_post_params[:user] = current_user
+    if @post.update(new_post_params)
       render json: @post
     else
       render json: @post.errors, status: :unprocessable_entity
@@ -45,8 +49,9 @@ class Api::V1::PostsController < ApiController
       @post = Post.find(params[:id])
     end
 
+    
     # Only allow a trusted parameter "white list" through.
     def post_params
-      params.require(:post).permit(:content, :masks, :not_crowded, :distancing, :user_id, :park_id)
+      params.require(:post).permit(:content, :masks, :not_crowded, :distancing, :user_id, :zone_id)
     end
 end

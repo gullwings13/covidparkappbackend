@@ -75,7 +75,6 @@ class Api::V1::UsersController < ApiController
             columns = User.attribute_names - exclude_columns
             @user = User.select(columns).find(params[:id])
         end
-
     end
   
     def user_params

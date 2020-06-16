@@ -21,7 +21,7 @@ class Api::V1::ZonesController < ApiController
     @zone = Zone.new(zone_params)
 
     if @zone.save
-      render json: @zone, status: :created, location: @zone
+      render json: @zone, status: :created
     else
       render json: @zone.errors, status: :unprocessable_entity
     end
