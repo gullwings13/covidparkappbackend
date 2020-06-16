@@ -41,7 +41,20 @@ class Api::V1::UsersController < ApiController
     end
 
     def profile
-            render json: current_user, only: [:name, :picture_url, :location, :email], include: :posts, status: :ok
+        render json: current_user, only: [:name, :picture_url, :location, :email], include: :posts, status: :ok
+    end
+
+    def edit
+        if current_user.update(user_params)
+            render json: {
+                message: "ok",
+                user: @user
+            }, status: :ok
+        else 
+            render json: {
+                message: @user.errors
+            }, status: 500
+        end
     end
   
     def destroy
@@ -66,6 +79,6 @@ class Api::V1::UsersController < ApiController
     end
   
     def user_params
-      params.permit(:name, :location, :picure_url)
+      params.permit(:name, :location, :picture_url)
     end
 end
