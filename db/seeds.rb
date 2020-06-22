@@ -495,3 +495,4 @@ end
 
 
 add_posts_to_zones_in_park(central_park, test_user1)
+add_posts_to_zones_in_park(flushing_meadow, test_user1)
