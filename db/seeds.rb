@@ -415,8 +415,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
-
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Unisphere_in_Flushing_Meadows-Corona_Park_6_October_2013.jpeg')
 
     Zone.create(location: "(s) Van Wyck Expwy To (n)Fountain Of The Planets",
         name: "South Of Fountain Of The Planets",
@@ -425,7 +424,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
+        picture_url: 'https://hiddenwatersblog.files.wordpress.com/2016/03/canoe-2.jpg')
 
 
 
@@ -436,7 +435,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
+        picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/10088.jpg')
 
 
     Zone.create(location: "(e) Van Wyck Expwy To (n)LIRR To (w)Passerelle Building",
@@ -446,7 +445,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
+        picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
 
     Zone.create(location: "(e) Grand Central Pkwy To (w)111th St. To (n) Heckscher Children Farm",
@@ -456,8 +455,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
-
+        picture_url: 'https://golfadvisor.brightspotcdn.com/dims4/default/a8f4a45/2147483647/strip/true/crop/1440x810+0+30/resize/590x332!/format/jpg/quality/90/?url=https%3A%2F%2Fgolfadvisor.brightspotcdn.com%2Fb6%2Ff2%2F26d7bb78e5b181a053762524cbc1%2F100296.jpg')
 
     Zone.create(location: "(e) Meadow Lake To (w) Grand Central Prkwy To (n) Atheletic Fields",
         name: "Meadow Lake SW",
@@ -466,7 +464,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
+        picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
 
     Zone.create(location: "111 St & Saultell & 56 Aves",
@@ -476,8 +474,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
-
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Playground_for_All_Children_Qns_td_(2019-03-21)_045.jpg')
 
     Zone.create(location: "Jewel Ave & Van Wyck Exwy",
         name: "Triassic Playground",
@@ -486,17 +483,17 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
+        picture_url: 'https://fastly.4sqi.net/img/general/558x200/805536_dB2x2rqxg9Y78ITLe9HJuELbxkFsTSzsl5rWlAL0OBc.jpg')
 
 
-    Zone.create(location: "Buzz Vollmer Playground",
-        name: "Between Passarelle Building And Fountain Of Planets",
+    Zone.create(location: "Between Passarelle Building And Fountain Of Planets",
+        name: "Buzz Vollmer Playground",
         park: flushing_meadows,
         average_rating: -1,
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'http://pictures-1.vaplace.com/92/47/9247a6611c05173585e1eeff0598b61c.jpg')
 
 
     Zone.create(location: "Behind Tennis Center",
@@ -526,7 +523,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://foresthillspost.com/wp-content/uploads/sites/22/2020/04/playground.jpg')
 
 
     Zone.create(location: "(w) Meadow Lake To (e) Van Wyck Expwy To (n) Parking 410",
@@ -536,7 +533,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
     Zone.create(location: "Meadow Lake SE",
         name: "(w) Meadow Lake To (e) Van Wyck Expwy To (n) Model",
@@ -565,7 +562,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://en.wikipedia.org/wiki/Unisphere#/media/File:Unisphere-2_(27835155267).jpg')
 
 
     Zone.create(location: "(e) Van Wyck Expwy, (w) N Of Assembly Area, (s) Fountain Of The Planets",
@@ -629,7 +626,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://images.squarespace-cdn.com/content/v1/57867be8c534a55abe83b3f5/1559161676308-1NOMG7CLPQVNCYRSFHX9/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/IMG_9558.JPG')
 
     Zone.create(location: "62nd Drive And Grand Central Pkwy Service Rd",
         name: "World's Fair Playground",
@@ -656,7 +653,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2020/04/09/489r8kom88_Julie_Larsen_Maher_6395_Aviary_exterior_AVI_QZ_08_28_09.jpg')
 
     Zone.create(location: "(w) Grand Central Prkwy To (n) Astral Fountain To (s) LIE",
         name: "Pavilion & Astral Fountain",
@@ -674,7 +671,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://images.squarespace-cdn.com/content/v1/5a0c9f51d74cffe8305247af/1516335891291-IKT0LEGK4MB6F6WNT7DR/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/js-queenscoronapark-20-citifield.jpg')
 
     Zone.create(location: "(n) 69th Rd To (e) Van Wyck Expwy To (w) Grand Central Pkwy To (s) NYC",
         name: "Willow Lake",
@@ -683,7 +680,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://www.nycgovparks.org/pagefiles/139/willow-lake-trail-banner__5cc9cf11866a3.jpg')
 
     Zone.create(location: "(w) Grand Central Prkwy To (e) Olmsted Center To (s) LIRR",
         name: "Olmsted Center",
@@ -701,7 +698,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_url: 'https://www.bridgeandtunnelclub.com/bigmap/queens/fmcp/marina/01shelter.jpg')
 
     Zone.create(location: "Stadium Parking To Grand Central Parkway To Roosevelt Ave",
         name: "Flushing Meadow Entrance",
