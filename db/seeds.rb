@@ -42,6 +42,18 @@ flushing_meadows = Park.create(
         
 flushing_meadows.save()
 
+
+
+mccarren_park = Park.create(
+    name:"McCarren Park",
+    boro:"Brooklyn",
+    address:"N. 12 St., Lorimer St., Manhattan Ave. bet. Bayard St. and Berry St. - Nassau Ave",
+    link:"https://www.nycgovparks.org/parks/mccarren-park", 
+    average_rating:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/21578.jpg')
+        
+mccarren_park.save()
+
     # central park zones
     Zone.create(location: "106-CPW, W Of Drive, AC Powell Blvd",
         name: "Northwest Corner",
@@ -406,8 +418,7 @@ flushing_meadows.save()
 
 # Flushing meadows
 
-            
-
+        
     Zone.create(location: "Unisphere Promenade, Un Ave N And S, Astronaut Ct",
         name: "Reflecting Pool Lawns",
         park: flushing_meadows,
@@ -718,7 +729,79 @@ flushing_meadows.save()
         average_not_crowded:-1,
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
+    # McCarren Park zones
 
+Zone.create(location: "Manhattan Ave, Leonard St, Bayard St, Lorimer St",
+    name: "McCarren Park Zone 1",
+    park: mccarren_park,
+    average_rating: -1,
+    average_masks:-1,
+    average_distancing:-1,
+    average_not_crowded:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
+
+
+Zone.create(location: "Bayard St, Lorimer St, Driggs Ave, Union Ave",
+    name: "McCarren Park Zone 2",
+    park: mccarren_park,
+    average_rating: -1,
+    average_masks:-1,
+    average_distancing:-1,
+    average_not_crowded:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/22053.jpg')
+
+
+Zone.create(location: "N 12th St, Driggs Ave, Lorimer St, Bedford Ave",
+    name: "McCarren Park Zone 3",
+    park: mccarren_park,
+    average_rating: -1,
+    average_masks:-1,
+    average_distancing:-1,
+    average_not_crowded:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17785.jpg')
+
+
+Zone.create(location: "Bedford Ave, N 12th St, Berry St, N 14th St",
+    name: "McCarren Park Zone 4",
+    park: mccarren_park,
+    average_rating: -1,
+    average_masks:-1,
+    average_distancing:-1,
+    average_not_crowded:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17790.jpg')
+
+
+Zone.create(location: "Union Ave, N 12th St, Driggs Ave",
+    name: "McCarren Park Zone 5",
+    park: mccarren_park,
+    average_rating: -1,
+    average_masks:-1,
+    average_distancing:-1,
+    average_not_crowded:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
+
+
+Zone.create(location: "Bedford And Nassau Aves",
+    name: "McCarren Park Zone 6",
+    park: mccarren_park,
+    average_rating: -1,
+    average_masks:-1,
+    average_distancing:-1,
+    average_not_crowded:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
+
+
+Zone.create(location: "Lorimer St, Driggs Ave",
+    name: "Vincent V Abate Playground",
+    park: mccarren_park,
+    average_rating: -1,
+    average_masks:-1,
+    average_distancing:-1,
+    average_not_crowded:-1,
+    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/18506.jpg')
+
+
+# math functions
         def build_average_ratings_park update_park
     update_park_masks_average = 0.0
     update_park_distancing_average = 0.0
@@ -832,3 +915,4 @@ end
 
 add_posts_to_zones_in_park(central_park, test_user1)
 add_posts_to_zones_in_park(flushing_meadows, test_user1)
+add_posts_to_zones_in_park(mccarren_park, test_user1)
