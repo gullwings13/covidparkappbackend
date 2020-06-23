@@ -729,7 +729,9 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
-    # McCarren Park zones
+
+# McCarren Park
+
 
 Zone.create(location: "Manhattan Ave, Leonard St, Bayard St, Lorimer St",
     name: "McCarren Park Zone 1",
@@ -802,6 +804,8 @@ Zone.create(location: "Lorimer St, Driggs Ave",
 
 
 # math functions
+
+
         def build_average_ratings_park update_park
     update_park_masks_average = 0.0
     update_park_distancing_average = 0.0
