@@ -455,7 +455,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://golfadvisor.brightspotcdn.com/dims4/default/a8f4a45/2147483647/strip/true/crop/1440x810+0+30/resize/590x332!/format/jpg/quality/90/?url=https%3A%2F%2Fgolfadvisor.brightspotcdn.com%2Fb6%2Ff2%2F26d7bb78e5b181a053762524cbc1%2F100296.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(e) Meadow Lake To (w) Grand Central Prkwy To (n) Atheletic Fields",
         name: "Meadow Lake SW",
@@ -483,7 +483,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://fastly.4sqi.net/img/general/558x200/805536_dB2x2rqxg9Y78ITLe9HJuELbxkFsTSzsl5rWlAL0OBc.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
     Zone.create(location: "Between Passarelle Building And Fountain Of Planets",
@@ -493,7 +493,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'http://pictures-1.vaplace.com/92/47/9247a6611c05173585e1eeff0598b61c.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
     Zone.create(location: "Behind Tennis Center",
@@ -626,7 +626,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://images.squarespace-cdn.com/content/v1/57867be8c534a55abe83b3f5/1559161676308-1NOMG7CLPQVNCYRSFHX9/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/IMG_9558.JPG')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "62nd Drive And Grand Central Pkwy Service Rd",
         name: "World's Fair Playground",
@@ -671,7 +671,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://images.squarespace-cdn.com/content/v1/5a0c9f51d74cffe8305247af/1516335891291-IKT0LEGK4MB6F6WNT7DR/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/js-queenscoronapark-20-citifield.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(n) 69th Rd To (e) Van Wyck Expwy To (w) Grand Central Pkwy To (s) NYC",
         name: "Willow Lake",
@@ -698,7 +698,7 @@ flushing_meadows.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_url: 'https://www.bridgeandtunnelclub.com/bigmap/queens/fmcp/marina/01shelter.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "Stadium Parking To Grand Central Parkway To Roosevelt Ave",
         name: "Flushing Meadow Entrance",
