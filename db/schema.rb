@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_16_171227) do
+ActiveRecord::Schema.define(version: 2020_06_24_172104) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2020_06_16_171227) do
     t.float "average_masks"
     t.float "average_distancing"
     t.float "average_not_crowded"
+    t.string "picture_attribution"
   end
 
   create_table "posts", force: :cascade do |t|
@@ -68,6 +69,7 @@ ActiveRecord::Schema.define(version: 2020_06_16_171227) do
     t.float "average_masks"
     t.float "average_distancing"
     t.float "average_not_crowded"
+    t.string "picture_attribution"
     t.index ["park_id"], name: "index_zones_on_park_id"
   end
 

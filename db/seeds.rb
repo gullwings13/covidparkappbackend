@@ -27,6 +27,7 @@ central_park = Park.create(
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://news.virginia.edu/sites/default/files/article_image/central_park_header.jpg')
 
 central_park.save()
@@ -38,6 +39,7 @@ flushing_meadows = Park.create(
     address:"111 St. and College Point Blvd., Park Drive E.",
     link:"https://www.nycgovparks.org/parks/flushing-meadows-corona-park", 
     average_rating:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
         
 flushing_meadows.save()
@@ -50,6 +52,7 @@ mccarren_park = Park.create(
     address:"N. 12 St., Lorimer St., Manhattan Ave. bet. Bayard St. and Berry St. - Nassau Ave",
     link:"https://www.nycgovparks.org/parks/mccarren-park", 
     average_rating:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/21578.jpg')
         
 mccarren_park.save()
@@ -62,6 +65,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
 
     Zone.create(location: "CPW, 86 St And West Drive, West Of Great Lawn, 85 St Transverse",
@@ -71,6 +75,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@arthur-ross-pinetum.jpg?mtime=20190828133859')
 
     Zone.create(location: "East Drive, 5 Ave, South Of Met",
@@ -80,6 +85,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@cedar-hill.jpg?mtime=20190828133907')
 
     Zone.create(location: "North Of The Arsenal, South Of Wallach Walk, 5th Ave",
@@ -89,6 +95,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Central_Park_Arsenal_jeh.JPG/989px-Central_Park_Arsenal_jeh.JPG')
 
     Zone.create(location: "South & West Sides Of Lake, N/o 72 St Transverse, Central Park West To 81 St & Transverse",
@@ -98,6 +105,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_rectangle/ff-th@2x-Bethesda-Fountain.jpg?mtime=20190812104046')
 
     Zone.create(location: "East Drive, 72 St Transverse, 5th Ave, South Of Cedar Hill",
@@ -107,6 +115,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/pilgrim-hill.jpeg?mtime=20190117131755')
 
     Zone.create(location: "The Great Lawn, East Drive, 85 St Transverse",
@@ -116,6 +125,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/1510/download/cleopatra-s-needle.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=640')
 
     Zone.create(location: "CPW, 85 St Transverse, West Drive To 96 St",
@@ -125,6 +135,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
     Zone.create(location: "S Of North Dr, N Of Huddlestone Br, Interior Of Drives",
@@ -134,6 +145,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@blockhouse2.jpg?mtime=20190813100530')
 
     Zone.create(location: "West Drive, Center Drive, 65 St Transverse",
@@ -143,6 +155,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@heckscher-playground.jpg?mtime=20190812145918')
 
     Zone.create(location: "Border of Heckscher Ballfields/Wollman Rink/Center Dr/65 St Transverse/East Dr",
@@ -152,6 +165,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@dairy-visitor-center2.jpg?mtime=20190813114301')
 
     Zone.create(location: "East Drive, 102 Exit, Conservancy Garden, Northern Path",
@@ -161,6 +175,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/2499/download/the-summer-conservatory-garden.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=1500&h=')
 
     Zone.create(location: "5 Ave, 103 St To 106 St",
@@ -170,6 +185,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/conservatory-garden.jpeg?mtime=20190117141419')
 
     Zone.create(location: "East Drive, Southern Path, Conservancy Garden, Harlem Meer",
@@ -179,6 +195,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/nutters-battery.jpeg?mtime=20190117131749')
 
     Zone.create(location: "Center Drive To East Drive (including Gapstow Bridge)",
@@ -188,6 +205,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://images.fineartamerica.com/images-medium-large-5/skaters-central-park-wollman-rink-regina-geoghan.jpg')
 
     Zone.create(location: "CPW, N Of 100 Str, W Of West Dr, S Of 105 St",
@@ -197,6 +215,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/park_activity/_rectangle/act-th@2x-Swimming.jpg')
 
     Zone.create(location: "Center Of Park, 102-106 Sts, Btwn Drives",
@@ -206,6 +225,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/loch.jpeg?mtime=20190117133659')
 
     Zone.create(location: "N Of 105, E Of CPW, W Of West Dr, SE Of 106 Path",
@@ -215,6 +235,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Great-Hill.jpg?mtime=20191115162315')
 
     Zone.create(location: "East Drive, 97 St Transverse, 5 Ave, E 102 St Entrance",
@@ -224,6 +245,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@East-Meadow.jpg?mtime=20191118103811')
 
     Zone.create(location: "West Drive, 97 St Transverse, North Meadow Recreation Center South Of The North Meadow",
@@ -233,6 +255,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-meadow-recreation-center.jpeg?mtime=20190117131748')
 
     Zone.create(location: "CPW, 79 St Transverse, West Drive To 85 St",
@@ -242,6 +265,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/8305/download/summit-rock1.jpg?cb=91f112082dc29141d32bcb6a0438a3fb&w=2048')
 
     Zone.create(location: "Mid-park In The 80's",
@@ -251,6 +275,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/blog/_rectangle/blog-rect@2x-Runners-Guide-2.jpg?mtime=20191024172201')
 
     Zone.create(location: "66 St To 72 St, CPW To West Drive",
@@ -260,6 +285,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
     Zone.create(location: "West Drive, CPW, 65 St Transverse",
@@ -269,6 +295,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
     Zone.create(location: "Columbus Circle, West Drive, CPS, Center Drive",
@@ -278,6 +305,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://cdn-img-feed.streeteasy.com/nyc/image/52/289867852.jpg')
 
     Zone.create(location: "East Drive, Wallach Walk, 5th Ave, 72 St Transverse",
@@ -287,6 +315,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/blog/_576x424_crop_center-center_100/blog-rect@2x-sanctuary1.jpg?mtime=20200408144724')
 
     Zone.create(location: "5 Ave Btw E 60 and E 65 Sts",
@@ -296,6 +325,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Wien-Walk.jpg?mtime=20191115162025')
 
     Zone.create(location: "W 72, 72 St Transverse, Lake",
@@ -305,6 +335,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@2x-Strawberry-Fields.jpg?mtime=20191118095336')
 
     Zone.create(location: "West Drive To 92 St, Reservoir, East Drive, 97 St Transverse",
@@ -314,6 +345,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jacqueline_Kennedy_Onassis_Reservoir.jpg/1200px-Jacqueline_Kennedy_Onassis_Reservoir.jpg')
 
     Zone.create(location: "Reservoir To Bridge 24 (@ 86 St), West Drive, 5 Ave To 90 St",
@@ -323,6 +355,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Reservoir.jpg?mtime=20191012150002')
 
     Zone.create(location: "Reservoir, 90 St, 5 Ave, 97 St Transverse",
@@ -332,6 +365,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/4371/download/reservoir.jpe?cb=cd4f9a3718f007ca5ec676c4f42a7da1')
 
     Zone.create(location: "CPW, W 97 St, West Drive, W 100 St",
@@ -341,6 +375,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.ostrovrealty.com/wp-content/uploads/2017/05/1-Central-Park-West-Unit-40D-1.jpg')
 
     Zone.create(location: "West Drive, East Drive, 97 St Transverse, South Of Loch Ravine",
@@ -350,6 +385,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-North-Meadow.jpg?mtime=20191012153441')
 
     Zone.create(location: "Center Drive To East Drive, W 59 St",
@@ -359,6 +395,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@1x-Hallett.jpg?mtime=20191012140851')
 
     Zone.create(location: "West Drive, 79 St Transverse, East Drive, South Of The Great Lawn",
@@ -368,6 +405,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@belvedere-castle.jpg?mtime=20190814144013')
 
     Zone.create(location: "5 Ave, CPN, Dana Discovery Center, Powell Blvd",
@@ -377,6 +415,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17854.jpg')
 
     Zone.create(location: "North & South Of The Gill, Btwn 79 St Transverse, the Lake, East Drive",
@@ -386,6 +425,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ramble.jpeg?mtime=20190117131802')
 
     Zone.create(location: "Sheep Meadow, Center Drive, 72 St",
@@ -395,6 +435,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/5367/download/summerstage_sound.jpg.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=640&h=')
 
     Zone.create(location: "72 St Transverse, West Drive, 65 St Transverse, Volleyball Courts",
@@ -404,6 +445,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@sheep-meadow2.jpg?mtime=20190816105343')
 
     Zone.create(location: "East Drive, 79 St Transverse, 5th Ave To 86 St",
@@ -413,6 +455,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://lh3.googleusercontent.com/oeElhcz08ou_KACQV0FTlEfPtkYEz-kBA57YDNvMG8Dg9fij2L09VsIhhytVa9eu')
 
 
@@ -426,6 +469,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Unisphere_in_Flushing_Meadows-Corona_Park_6_October_2013.jpeg')
 
     Zone.create(location: "(s) Van Wyck Expwy To (n)Fountain Of The Planets",
@@ -435,6 +479,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://hiddenwatersblog.files.wordpress.com/2016/03/canoe-2.jpg')
 
 
@@ -446,6 +491,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/10088.jpg')
 
 
@@ -456,6 +502,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
 
@@ -466,6 +513,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(e) Meadow Lake To (w) Grand Central Prkwy To (n) Atheletic Fields",
@@ -475,6 +523,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
 
@@ -485,6 +534,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Playground_for_All_Children_Qns_td_(2019-03-21)_045.jpg')
 
     Zone.create(location: "Jewel Ave & Van Wyck Exwy",
@@ -494,6 +544,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -504,6 +555,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -514,6 +566,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -524,6 +577,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -534,6 +588,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://foresthillspost.com/wp-content/uploads/sites/22/2020/04/playground.jpg')
 
 
@@ -544,6 +599,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
     Zone.create(location: "Meadow Lake SE",
@@ -553,6 +609,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -563,6 +620,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -573,6 +631,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://en.wikipedia.org/wiki/Unisphere#/media/File:Unisphere-2_(27835155267).jpg')
 
 
@@ -583,6 +642,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "Path Of Commerce, Fountain Of The Fairs Prom S, Un Ave S, Path Of Africa",
@@ -592,6 +652,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
       
     Zone.create(location: "(e) Meadow Lake To (sw) Grand Central Parkway To (se) Van Wyck Expwy ",
@@ -601,6 +662,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "Path Of Commerce, Fountain Of The Fairs Prom N, Un Ave N",
@@ -610,6 +672,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(n) LIE To (s) Meadow Lake To (e) Van Wyck Expwy Extension",
@@ -619,6 +682,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(s) LIE To (N of) Asral Fountain",
@@ -628,6 +692,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "College Pt Blvd, Van Wyck Expwy, At Booth Memorial Ave",
@@ -637,6 +702,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "62nd Drive And Grand Central Pkwy Service Rd",
@@ -646,6 +712,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(ne) Fountain Of The Planets To (sw) Fountain Of The Fairs",
@@ -655,6 +722,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(n) 45th Ave To (s) 54, 55th Ave To (e) Grand Central Pkwy To (w) 111th St",
@@ -664,6 +732,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2020/04/09/489r8kom88_Julie_Larsen_Maher_6395_Aviary_exterior_AVI_QZ_08_28_09.jpg')
 
     Zone.create(location: "(w) Grand Central Prkwy To (n) Astral Fountain To (s) LIE",
@@ -673,6 +742,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(n) Pedestrian Ramp At Roosevelt Av To (s) David Dinkins Circle",
@@ -682,6 +752,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(n) 69th Rd To (e) Van Wyck Expwy To (w) Grand Central Pkwy To (s) NYC",
@@ -691,6 +762,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://www.nycgovparks.org/pagefiles/139/willow-lake-trail-banner__5cc9cf11866a3.jpg')
 
     Zone.create(location: "(w) Grand Central Prkwy To (e) Olmsted Center To (s) LIRR",
@@ -700,6 +772,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "Northern Blvd To Grand Central Parkway",
@@ -709,6 +782,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "Stadium Parking To Grand Central Parkway To Roosevelt Ave",
@@ -718,6 +792,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "w) Van Wyck Expwy To (e&s)College Point Blvd To (n) Al Oerter Parking Lot",
@@ -727,6 +802,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -740,6 +816,7 @@ Zone.create(location: "Manhattan Ave, Leonard St, Bayard St, Lorimer St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
 
 
@@ -750,6 +827,7 @@ Zone.create(location: "Bayard St, Lorimer St, Driggs Ave, Union Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/22053.jpg')
 
 
@@ -760,6 +838,7 @@ Zone.create(location: "N 12th St, Driggs Ave, Lorimer St, Bedford Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17785.jpg')
 
 
@@ -770,6 +849,7 @@ Zone.create(location: "Bedford Ave, N 12th St, Berry St, N 14th St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17790.jpg')
 
 
@@ -780,6 +860,7 @@ Zone.create(location: "Union Ave, N 12th St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
 
 
@@ -790,6 +871,7 @@ Zone.create(location: "Bedford And Nassau Aves",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
 
 
@@ -800,13 +882,14 @@ Zone.create(location: "Lorimer St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/18506.jpg')
 
 
 # math functions
 
 
-        def build_average_ratings_park update_park
+def build_average_ratings_park update_park
     update_park_masks_average = 0.0
     update_park_distancing_average = 0.0
     update_park_not_crowded_average = 0.0
@@ -828,12 +911,6 @@ Zone.create(location: "Lorimer St, Driggs Ave",
     update_park_rating = update_park_masks_average+update_park_distancing_average+update_park_not_crowded_average
     update_park.average_rating = update_park_rating/3
     update_park.save
-
-
-
-
-
-
 end
 
 
