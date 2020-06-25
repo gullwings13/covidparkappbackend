@@ -27,8 +27,9 @@ central_park = Park.create(
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://news.virginia.edu/sites/default/files/article_image/central_park_header.jpg')
+    picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg',
+    picture_attribution: 'FEMA/Kenneth Wilsey / Public domain',
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg')
 
 central_park.save()
 
@@ -39,7 +40,8 @@ flushing_meadows = Park.create(
     address:"111 St. and College Point Blvd., Park Drive E.",
     link:"https://www.nycgovparks.org/parks/flushing-meadows-corona-park", 
     average_rating:-1,
-    picture_attribution: 'tba',
+    picture_attribution_link: 'http://creativecommons.org/licenses/by-sa/3.0/',
+    picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA',
     picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
         
 flushing_meadows.save()
@@ -52,6 +54,7 @@ mccarren_park = Park.create(
     address:"N. 12 St., Lorimer St., Manhattan Ave. bet. Bayard St. and Berry St. - Nassau Ave",
     link:"https://www.nycgovparks.org/parks/mccarren-park", 
     average_rating:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/21578.jpg')
         
@@ -65,6 +68,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
 
@@ -75,6 +79,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@arthur-ross-pinetum.jpg?mtime=20190828133859')
 
@@ -85,6 +90,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@cedar-hill.jpg?mtime=20190828133907')
 
@@ -95,6 +101,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Central_Park_Arsenal_jeh.JPG/989px-Central_Park_Arsenal_jeh.JPG')
 
@@ -105,6 +112,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_rectangle/ff-th@2x-Bethesda-Fountain.jpg?mtime=20190812104046')
 
@@ -115,6 +123,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/pilgrim-hill.jpeg?mtime=20190117131755')
 
@@ -125,6 +134,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/1510/download/cleopatra-s-needle.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=640')
 
@@ -135,6 +145,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
@@ -145,6 +156,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@blockhouse2.jpg?mtime=20190813100530')
 
@@ -155,6 +167,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@heckscher-playground.jpg?mtime=20190812145918')
 
@@ -165,6 +178,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@dairy-visitor-center2.jpg?mtime=20190813114301')
 
@@ -175,6 +189,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/2499/download/the-summer-conservatory-garden.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=1500&h=')
 
@@ -185,6 +200,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/conservatory-garden.jpeg?mtime=20190117141419')
 
@@ -195,6 +211,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/nutters-battery.jpeg?mtime=20190117131749')
 
@@ -205,6 +222,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://images.fineartamerica.com/images-medium-large-5/skaters-central-park-wollman-rink-regina-geoghan.jpg')
 
@@ -215,6 +233,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/park_activity/_rectangle/act-th@2x-Swimming.jpg')
 
@@ -225,6 +244,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/loch.jpeg?mtime=20190117133659')
 
@@ -235,6 +255,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Great-Hill.jpg?mtime=20191115162315')
 
@@ -245,6 +266,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@East-Meadow.jpg?mtime=20191118103811')
 
@@ -255,6 +277,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-meadow-recreation-center.jpeg?mtime=20190117131748')
 
@@ -265,6 +288,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/8305/download/summit-rock1.jpg?cb=91f112082dc29141d32bcb6a0438a3fb&w=2048')
 
@@ -275,6 +299,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/blog/_rectangle/blog-rect@2x-Runners-Guide-2.jpg?mtime=20191024172201')
 
@@ -285,6 +310,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
@@ -295,6 +321,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
@@ -305,6 +332,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://cdn-img-feed.streeteasy.com/nyc/image/52/289867852.jpg')
 
@@ -315,6 +343,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/blog/_576x424_crop_center-center_100/blog-rect@2x-sanctuary1.jpg?mtime=20200408144724')
 
@@ -325,6 +354,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Wien-Walk.jpg?mtime=20191115162025')
 
@@ -335,6 +365,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@2x-Strawberry-Fields.jpg?mtime=20191118095336')
 
@@ -345,6 +376,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jacqueline_Kennedy_Onassis_Reservoir.jpg/1200px-Jacqueline_Kennedy_Onassis_Reservoir.jpg')
 
@@ -355,6 +387,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Reservoir.jpg?mtime=20191012150002')
 
@@ -365,6 +398,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/4371/download/reservoir.jpe?cb=cd4f9a3718f007ca5ec676c4f42a7da1')
 
@@ -375,6 +409,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.ostrovrealty.com/wp-content/uploads/2017/05/1-Central-Park-West-Unit-40D-1.jpg')
 
@@ -385,6 +420,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-North-Meadow.jpg?mtime=20191012153441')
 
@@ -395,6 +431,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@1x-Hallett.jpg?mtime=20191012140851')
 
@@ -405,6 +442,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@belvedere-castle.jpg?mtime=20190814144013')
 
@@ -415,6 +453,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17854.jpg')
 
@@ -425,6 +464,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ramble.jpeg?mtime=20190117131802')
 
@@ -435,6 +475,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.centralpark.com/downloads/5367/download/summerstage_sound.jpg.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=640&h=')
 
@@ -445,6 +486,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@sheep-meadow2.jpg?mtime=20190816105343')
 
@@ -455,6 +497,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://lh3.googleusercontent.com/oeElhcz08ou_KACQV0FTlEfPtkYEz-kBA57YDNvMG8Dg9fij2L09VsIhhytVa9eu')
 
@@ -469,6 +512,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Unisphere_in_Flushing_Meadows-Corona_Park_6_October_2013.jpeg')
 
@@ -479,6 +523,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://hiddenwatersblog.files.wordpress.com/2016/03/canoe-2.jpg')
 
@@ -491,6 +536,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/10088.jpg')
 
@@ -502,6 +548,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
@@ -513,6 +560,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -523,6 +571,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
@@ -534,6 +583,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Playground_for_All_Children_Qns_td_(2019-03-21)_045.jpg')
 
@@ -544,6 +594,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -555,6 +606,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -566,6 +618,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -577,6 +630,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -588,6 +642,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://foresthillspost.com/wp-content/uploads/sites/22/2020/04/playground.jpg')
 
@@ -599,6 +654,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://mapio.net/images-p/41157978.jpg')
 
@@ -609,6 +665,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -620,6 +677,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -631,6 +689,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://en.wikipedia.org/wiki/Unisphere#/media/File:Unisphere-2_(27835155267).jpg')
 
@@ -642,6 +701,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -652,6 +712,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
       
@@ -662,6 +723,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -672,6 +734,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -682,6 +745,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -692,6 +756,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -702,6 +767,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -712,6 +778,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -722,6 +789,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -732,6 +800,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2020/04/09/489r8kom88_Julie_Larsen_Maher_6395_Aviary_exterior_AVI_QZ_08_28_09.jpg')
 
@@ -742,6 +811,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -752,6 +822,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -762,6 +833,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://www.nycgovparks.org/pagefiles/139/willow-lake-trail-banner__5cc9cf11866a3.jpg')
 
@@ -772,6 +844,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -782,6 +855,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -792,6 +866,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -802,6 +877,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'tba',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -816,6 +892,7 @@ Zone.create(location: "Manhattan Ave, Leonard St, Bayard St, Lorimer St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
 
@@ -827,6 +904,7 @@ Zone.create(location: "Bayard St, Lorimer St, Driggs Ave, Union Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/22053.jpg')
 
@@ -838,6 +916,7 @@ Zone.create(location: "N 12th St, Driggs Ave, Lorimer St, Bedford Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17785.jpg')
 
@@ -849,6 +928,7 @@ Zone.create(location: "Bedford Ave, N 12th St, Berry St, N 14th St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17790.jpg')
 
@@ -860,6 +940,7 @@ Zone.create(location: "Union Ave, N 12th St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
 
@@ -871,6 +952,7 @@ Zone.create(location: "Bedford And Nassau Aves",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
 
@@ -882,6 +964,7 @@ Zone.create(location: "Lorimer St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'tba',
     picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/18506.jpg')
 
