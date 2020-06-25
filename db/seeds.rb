@@ -604,7 +604,7 @@ mccarren_park.save()
         average_distancing:-1,
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
-        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)')
 
       
     Zone.create(location: "Between Passarelle Building And Fountain Of Planets",
