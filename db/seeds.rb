@@ -71,9 +71,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-woods.jpeg?mtime=20190117131748')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg',
+        picture_attribution: 'FEMA/Kenneth Wilsey / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg')
 
     Zone.create(location: "CPW, 86 St And West Drive, West Of Great Lawn, 85 St Transverse",
         name: "Ross Pinetum",
@@ -82,9 +82,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@arthur-ross-pinetum.jpg?mtime=20190828133859')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg',
+        picture_attribution: 'FEMA/Kenneth Wilsey / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg')
 
     Zone.create(location: "East Drive, 5 Ave, South Of Met",
         name: "Cedar Hill",
@@ -93,9 +93,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@cedar-hill.jpg?mtime=20190828133907')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/8/8f/Glade_Arch_north_cloudy_jeh.jpg')
 
     Zone.create(location: "North Of The Arsenal, South Of Wallach Walk, 5th Ave",
         name: "North Of The Arsenal",
@@ -104,9 +104,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Central_Park_Arsenal_jeh.JPG/989px-Central_Park_Arsenal_jeh.JPG')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:Central_Park_Arsenal_jeh.JPG',
+        picture_attribution: 'Jim.henderson / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Central_Park_Arsenal_jeh.JPG')
 
     Zone.create(location: "South & West Sides Of Lake, N/o 72 St Transverse, Central Park West To 81 St & Transverse",
         name: "Bethesda Terrace",
@@ -115,9 +115,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_rectangle/ff-th@2x-Bethesda-Fountain.jpg?mtime=20190812104046')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Ahodges7 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Angel_of_the_Waters_Fountain_and_Bethesda_Terrace%2C_Central_Park%2C_NYC.jpg')
 
     Zone.create(location: "East Drive, 72 St Transverse, 5th Ave, South Of Cedar Hill",
         name: "Pilgrim Hill & Conservatory Water",
@@ -126,9 +126,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/pilgrim-hill.jpeg?mtime=20190117131755')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Ingfbruno / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/8/84/2910-Central_Park-Conservatory_Pond.JPG')
 
     Zone.create(location: "The Great Lawn, East Drive, 85 St Transverse",
         name: "Great Lawn And Cleopatra's Needle",
@@ -137,9 +137,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://www.centralpark.com/downloads/1510/download/cleopatra-s-needle.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=640')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Helen102016 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Cleopatra%27s_Needle_Central_Park.jpg')
 
     Zone.create(location: "CPW, 85 St Transverse, West Drive To 96 St",
         name: "Central Park West",
@@ -148,8 +148,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Daniel Case / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
     Zone.create(location: "S Of North Dr, N Of Huddlestone Br, Interior Of Drives",
@@ -159,9 +159,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@blockhouse2.jpg?mtime=20190813100530')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:New_York_City_Blockhouse.JPG',
+        picture_attribution: 'Sylius / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/New_York_City_Blockhouse.JPG')
 
     Zone.create(location: "West Drive, Center Drive, 65 St Transverse",
         name: "Heckscher Ballfields & Playground",
@@ -170,9 +170,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@heckscher-playground.jpg?mtime=20190812145918')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by/2.0',
+        picture_attribution: 'Jazz Guy from New Jersey, United States / CC BY (https://creativecommons.org/licenses/by/2.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/9/92/Day_Trip_to_New_York_City_%282788493478%29.jpg')
 
     Zone.create(location: "Border of Heckscher Ballfields/Wollman Rink/Center Dr/65 St Transverse/East Dr",
         name: "Dairy, Chess & Checkers House, Carousel",
@@ -181,9 +181,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@dairy-visitor-center2.jpg?mtime=20190813114301')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Ingfbruno / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/14/3030-Central_Park-The_Dairy.JPG')
 
     Zone.create(location: "East Drive, 102 Exit, Conservancy Garden, Northern Path",
         name: "Conservatory Gardens West Landscape",
@@ -192,9 +192,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://www.centralpark.com/downloads/2499/download/the-summer-conservatory-garden.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=1500&h=')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/Conservatory_Garden_in_Central_Park_-_panoramio.jpg')
 
     Zone.create(location: "5 Ave, 103 St To 106 St",
         name: "Conservatory Garden",
@@ -203,9 +203,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/conservatory-garden.jpeg?mtime=20190117141419')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Minard38 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Conservatory_Garden%2C_Central_Park.jpg')
 
     Zone.create(location: "East Drive, Southern Path, Conservancy Garden, Harlem Meer",
         name: "Nutter's Battery & Fort Clinton Site",
@@ -214,9 +214,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/nutters-battery.jpeg?mtime=20190117131749')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'King of Hearts / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Central_Park_New_York_October_2016_006.jpg')
 
     Zone.create(location: "Center Drive To East Drive (including Gapstow Bridge)",
         name: "Wollman Rink",
@@ -225,9 +225,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://images.fineartamerica.com/images-medium-large-5/skaters-central-park-wollman-rink-regina-geoghan.jpg')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by/2.0',
+        picture_attribution: 'Ludovic Bertron from New York City, Usa / CC BY (https://creativecommons.org/licenses/by/2.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Wollman_Rink_%283338081339%29.jpg')
 
     Zone.create(location: "CPW, N Of 100 Str, W Of West Dr, S Of 105 St",
         name: "The Pool",
@@ -236,9 +236,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/park_activity/_rectangle/act-th@2x-Swimming.jpg')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Jay Dobkin / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Egret_in_the_Pool_in_Central_Park_5.jpg')
 
     Zone.create(location: "Center Of Park, 102-106 Sts, Btwn Drives",
         name: "Loch Ravine",
@@ -247,9 +247,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/loch.jpeg?mtime=20190117133659')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Epicgenius / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Central_Park_May_2019_85.jpg')
 
     Zone.create(location: "N Of 105, E Of CPW, W Of West Dr, SE Of 106 Path",
         name: "The Great Hill",
@@ -258,9 +258,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Great-Hill.jpg?mtime=20191115162315')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg',
+        picture_attribution: 'FEMA/Kenneth Wilsey / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg')
 
     Zone.create(location: "East Drive, 97 St Transverse, 5 Ave, E 102 St Entrance",
         name: "East Meadow",
@@ -269,9 +269,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@East-Meadow.jpg?mtime=20191118103811')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg',
+        picture_attribution: 'FEMA/Kenneth Wilsey / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg')
 
     Zone.create(location: "West Drive, 97 St Transverse, North Meadow Recreation Center South Of The North Meadow",
         name: "North Meadow Recreation Center",
@@ -280,9 +280,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/north-meadow-recreation-center.jpeg?mtime=20190117131748')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Central_Park_North_Meadow_td_%282019-04-18%29_061_-_Baseball_Field_4.jpg')
 
     Zone.create(location: "CPW, 79 St Transverse, West Drive To 85 St",
         name: "79th St Yard And Summit Rock",
@@ -291,9 +291,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://www.centralpark.com/downloads/8305/download/summit-rock1.jpg?cb=91f112082dc29141d32bcb6a0438a3fb&w=2048')
+        picture_attribution_link: 'https://creativecommons.org/publicdomain/zero/1.0/deed.en',
+        picture_attribution: 'peakpx / CC0',
+        picture_url: 'https://c1.peakpx.com/wallpaper/140/127/621/couple-romance-romantic-people-wallpaper.jpg')
 
     Zone.create(location: "Mid-park In The 80's",
         name: "Reservoir Running Track & Landscape",
@@ -302,9 +302,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/blog/_rectangle/blog-rect@2x-Runners-Guide-2.jpg?mtime=20191024172201')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/2.0',
+        picture_attribution: 'Gruban / Patrick Gruban from Munich, Germany / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Central_Park_jogging.jpg')
 
     Zone.create(location: "66 St To 72 St, CPW To West Drive",
         name: "Central Park West",
@@ -313,8 +313,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Daniel Case / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
 
     Zone.create(location: "West Drive, CPW, 65 St Transverse",
@@ -324,9 +324,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Central_Park_West_buildings_over_Lake.jpg')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by/2.5',
+        picture_attribution: 'Fritz Geller-Grimm / CC BY (https://creativecommons.org/licenses/by/2.5)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Centralpark_fg01.jpg')
 
     Zone.create(location: "Columbus Circle, West Drive, CPS, Center Drive",
         name: "Central Park South",
@@ -335,9 +335,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://cdn-img-feed.streeteasy.com/nyc/image/52/289867852.jpg')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Daniel Dimitrov / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/The_Pond_in_Central_Park_South.jpg')        
 
     Zone.create(location: "East Drive, Wallach Walk, 5th Ave, 72 St Transverse",
         name: "Wallach Walk And East Green",
@@ -346,9 +346,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/blog/_576x424_crop_center-center_100/blog-rect@2x-sanctuary1.jpg?mtime=20200408144724')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'JJBers / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/Upper_East_Side_-_Central_Park_-_20180821190508.jpg')
 
     Zone.create(location: "5 Ave Btw E 60 and E 65 Sts",
         name: "Wien Walk And Arsenal",
@@ -357,9 +357,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Wien-Walk.jpg?mtime=20191115162025')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'David Shankbone / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/Lower_Central_Park_Shot_4.JPG')
 
     Zone.create(location: "W 72, 72 St Transverse, Lake",
         name: "Strawberry Fields",
@@ -368,9 +368,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@2x-Strawberry-Fields.jpg?mtime=20191118095336')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by/2.0',
+        picture_attribution: 'Phil Whitehouse from London, United Kingdom / CC BY (https://creativecommons.org/licenses/by/2.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/Strawberry_Fields%2C_Central_Park_%282110928763%29.jpg')
 
     Zone.create(location: "West Drive To 92 St, Reservoir, East Drive, 97 St Transverse",
         name: "Reservoir (Northwest)",
@@ -379,9 +379,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jacqueline_Kennedy_Onassis_Reservoir.jpg/1200px-Jacqueline_Kennedy_Onassis_Reservoir.jpg')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:Central_Park_New_York_City_New_York_23_cropped.jpg',
+        picture_attribution: 'Jet Lowe / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Central_Park_New_York_City_New_York_23_cropped.jpg')
 
     Zone.create(location: "Reservoir To Bridge 24 (@ 86 St), West Drive, 5 Ave To 90 St",
         name: "Reservoir (Southeast)",
@@ -390,9 +390,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-Reservoir.jpg?mtime=20191012150002')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Southeast_Reservoir_Bridge_-_panoramio.jpg')
 
     Zone.create(location: "Reservoir, 90 St, 5 Ave, 97 St Transverse",
         name: "Reservoir (Northeast)",
@@ -401,9 +401,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://www.centralpark.com/downloads/4371/download/reservoir.jpe?cb=cd4f9a3718f007ca5ec676c4f42a7da1')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:Central_Park_Reservoir_South_Gatehouse_spring_jeh.jpg',
+        picture_attribution: 'Jim.henderson / CC0',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Central_Park_Reservoir_South_Gatehouse_spring_jeh.jpg')
 
     Zone.create(location: "CPW, W 97 St, West Drive, W 100 St",
         name: "Central Park West",
@@ -412,9 +412,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://www.ostrovrealty.com/wp-content/uploads/2017/05/1-Central-Park-West-Unit-40D-1.jpg')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by/2.5',
+        picture_attribution: 'Fritz Geller-Grimm / CC BY (https://creativecommons.org/licenses/by/2.5)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Centralpark_fg01.jpg')
 
     Zone.create(location: "West Drive, East Drive, 97 St Transverse, South Of Loch Ravine",
         name: "North Meadow",
@@ -423,9 +423,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@3x-North-Meadow.jpg?mtime=20191012153441')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Central_Park_North_Meadow_td_%282019-04-18%29_010.jpg')
 
     Zone.create(location: "Center Drive To East Drive, W 59 St",
         name: "Hallett Nature Sanctuary And Pond",
@@ -434,9 +434,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@1x-Hallett.jpg?mtime=20191012140851')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Epicgenius / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Central_Park_Apr_2019_160.jpg')
 
     Zone.create(location: "West Drive, 79 St Transverse, East Drive, South Of The Great Lawn",
         name: "Belvdre. Cstl., Turtle Pond, Shkspr Grdn",
@@ -445,9 +445,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@belvedere-castle.jpg?mtime=20190814144013')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by/2.0',
+        picture_attribution: 'Stig Nygaard from Copenhagen, Denmark / CC BY (https://creativecommons.org/licenses/by/2.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Belvedere_Castle%2C_Central_Park.jpg')
 
     Zone.create(location: "5 Ave, CPN, Dana Discovery Center, Powell Blvd",
         name: "Frawleys' Run",
@@ -456,9 +456,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17854.jpg')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg',
+        picture_attribution: 'FEMA/Kenneth Wilsey / Public domain',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg')
 
     Zone.create(location: "North & South Of The Gill, Btwn 79 St Transverse, the Lake, East Drive",
         name: "The Ramble",
@@ -467,9 +467,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ramble.jpeg?mtime=20190117131802')
+        picture_attribution_link: 'https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Central_Park_--_2012_--_6732.jpg',
+        picture_attribution: 'Dietmar Rabich / Wikimedia Commons / “New York City (New York, USA), Central Park -- 2012 -- 6732” / CC BY-SA 4.0',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/c1/New_York_City_%28New_York%2C_USA%29%2C_Central_Park_--_2012_--_6732.jpg')
 
     Zone.create(location: "Sheep Meadow, Center Drive, 72 St",
         name: "The Mall And Rumsey Playfield",
@@ -478,9 +478,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://www.centralpark.com/downloads/5367/download/summerstage_sound.jpg.jpe?cb=783665e2e86dabe11fdbe675f24e26c4&w=640&h=')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/4.0',
+        picture_attribution: 'Throggmorton / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Mother_Goose_outside_of_Rumsey_Play_Field_in_the_Winter.jpg')
 
     Zone.create(location: "72 St Transverse, West Drive, 65 St Transverse, Volleyball Courts",
         name: "Sheep Meadow",
@@ -489,9 +489,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://d17wymyl890hh0.cloudfront.net/new_images/feature_facilities/_wide/ff-wide@sheep-meadow2.jpg?mtime=20190816105343')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/2.0',
+        picture_attribution: 'Ed Yourdon from New York City, USA / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Sheep_Meadow%2C_Central_Park_during_Autumn%2C_NYC.jpg')
 
     Zone.create(location: "East Drive, 79 St Transverse, 5th Ave To 86 St",
         name: "The Metropolitan Museum Of Art",
@@ -500,9 +500,9 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution_link: 'tba',
-        picture_attribution: 'tba',
-        picture_url: 'https://lh3.googleusercontent.com/oeElhcz08ou_KACQV0FTlEfPtkYEz-kBA57YDNvMG8Dg9fij2L09VsIhhytVa9eu')
+        picture_attribution_link: 'https://creativecommons.org/licenses/by-sa/3.0',
+        picture_attribution: 'Sracer357 / CC BY-SA',
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/The_Metropolitan_Museum_of_Art.jpg')
 
 
 # Flushing meadows
