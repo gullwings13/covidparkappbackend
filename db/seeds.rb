@@ -39,7 +39,7 @@ flushing_meadows = Park.create(
     address:"111 St. and College Point Blvd., Park Drive E.",
     link:"https://www.nycgovparks.org/parks/flushing-meadows-corona-park", 
     average_rating:-1,
-    picture_attribution: 'tba',
+    picture_attribution: 'Dluger / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
     picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
         
 flushing_meadows.save()
@@ -52,8 +52,8 @@ mccarren_park = Park.create(
     address:"N. 12 St., Lorimer St., Manhattan Ave. bet. Bayard St. and Berry St. - Nassau Ave",
     link:"https://www.nycgovparks.org/parks/mccarren-park", 
     average_rating:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/21578.jpg')
+    picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
         
 mccarren_park.save()
 
@@ -469,7 +469,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'MusikAnimal / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Unisphere_in_Flushing_Meadows-Corona_Park_6_October_2013.jpeg')
 
     Zone.create(location: "(s) Van Wyck Expwy To (n)Fountain Of The Planets",
@@ -479,8 +479,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://hiddenwatersblog.files.wordpress.com/2016/03/canoe-2.jpg')
+        picture_attribution: 'CaptJayRuffins / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_Fountains_-_The_Rocket_Thrower.jpg')
 
 
 
@@ -491,8 +491,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/10088.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_44_-_Baseball_Field_13.jpg')
 
 
     Zone.create(location: "(e) Van Wyck Expwy To (n)LIRR To (w)Passerelle Building",
@@ -502,18 +502,18 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://mapio.net/images-p/41157978.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_27.jpg')
 
 
     Zone.create(location: "(e) Grand Central Pkwy To (w)111th St. To (n) Heckscher Children Farm",
-        name: "Putt-putt Golf Course & Allied Bldg",
+        name: "Putt-putt Course & Allied Bldg",
         park: flushing_meadows,
         average_rating: -1,
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(e) Meadow Lake To (w) Grand Central Prkwy To (n) Atheletic Fields",
@@ -523,8 +523,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://mapio.net/images-p/41157978.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_47.jpg')
 
 
     Zone.create(location: "111 St & Saultell & 56 Aves",
@@ -534,8 +534,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Playground_for_All_Children_Qns_td_(2019-03-21)_045.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Playground_for_All_Children_Qns_td_(2019-03-21)_038.jpg')
 
     Zone.create(location: "Jewel Ave & Van Wyck Exwy",
         name: "Triassic Playground",
@@ -544,7 +544,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -555,7 +555,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -566,7 +566,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -577,7 +577,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -588,8 +588,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://foresthillspost.com/wp-content/uploads/sites/22/2020/04/playground.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Mauro_Playground_td_(2019-05-05)_114.jpg')
 
 
     Zone.create(location: "(w) Meadow Lake To (e) Van Wyck Expwy To (n) Parking 410",
@@ -599,8 +599,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://mapio.net/images-p/41157978.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_32.jpg')
 
     Zone.create(location: "Meadow Lake SE",
         name: "(w) Meadow Lake To (e) Van Wyck Expwy To (n) Model",
@@ -609,8 +609,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_63.jpg')
 
 
     Zone.create(location: "(s) Parking 110 To (w) Grand Central Prkwy To (n) Pool West Of Unisphere",
@@ -620,7 +620,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -631,8 +631,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://en.wikipedia.org/wiki/Unisphere#/media/File:Unisphere-2_(27835155267).jpg')
+        picture_attribution: 'Beyond My Ken / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_in_summer.jpg')
 
 
     Zone.create(location: "(e) Van Wyck Expwy, (w) N Of Assembly Area, (s) Fountain Of The Planets",
@@ -642,8 +642,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Vista_de_Flushing_Meadows_Corona_Park_cerca_de_la_Unisfera_-_panoramio.jpg')
 
     Zone.create(location: "Path Of Commerce, Fountain Of The Fairs Prom S, Un Ave S, Path Of Africa",
         name: "South Lawn",
@@ -652,8 +652,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_10.jpg')
       
     Zone.create(location: "(e) Meadow Lake To (sw) Grand Central Parkway To (se) Van Wyck Expwy ",
         name: "Meadow Lake South",
@@ -662,8 +662,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_06.jpg')
 
     Zone.create(location: "Path Of Commerce, Fountain Of The Fairs Prom N, Un Ave N",
         name: "North Lawn",
@@ -672,8 +672,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_12.jpg')
 
     Zone.create(location: "(n) LIE To (s) Meadow Lake To (e) Van Wyck Expwy Extension",
         name: "Meadow Lake North",
@@ -682,8 +682,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_48.jpg')
 
     Zone.create(location: "(s) LIE To (N of) Asral Fountain",
         name: "Festival Square & Garden Of Meditation",
@@ -692,7 +692,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "College Pt Blvd, Van Wyck Expwy, At Booth Memorial Ave",
@@ -702,7 +702,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "62nd Drive And Grand Central Pkwy Service Rd",
@@ -712,7 +712,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(ne) Fountain Of The Planets To (sw) Fountain Of The Fairs",
@@ -722,8 +722,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'CaptJayRuffins / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_Fountains_-_The_Rocket_Thrower_01.jpg')
 
     Zone.create(location: "(n) 45th Ave To (s) 54, 55th Ave To (e) Grand Central Pkwy To (w) 111th St",
         name: "Queens Wildlife Center",
@@ -732,7 +732,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2020/04/09/489r8kom88_Julie_Larsen_Maher_6395_Aviary_exterior_AVI_QZ_08_28_09.jpg')
 
     Zone.create(location: "(w) Grand Central Prkwy To (n) Astral Fountain To (s) LIE",
@@ -742,8 +742,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'I, GK tramrunner229 / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:1964_New_York_World%27s_Fair_Pavilion_from_the_within_Flushing_Meadows-Corona_Park.jpg')
 
     Zone.create(location: "(n) Pedestrian Ramp At Roosevelt Av To (s) David Dinkins Circle",
         name: "Passerelle",
@@ -752,7 +752,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "(n) 69th Rd To (e) Van Wyck Expwy To (w) Grand Central Pkwy To (s) NYC",
@@ -762,8 +762,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://www.nycgovparks.org/pagefiles/139/willow-lake-trail-banner__5cc9cf11866a3.jpg')
+        picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_33.jpg')
 
     Zone.create(location: "(w) Grand Central Prkwy To (e) Olmsted Center To (s) LIRR",
         name: "Olmsted Center",
@@ -772,7 +772,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "Northern Blvd To Grand Central Parkway",
@@ -782,8 +782,8 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
-        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+        picture_attribution: 'Transpoman / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
+        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Bay.jpg')
 
     Zone.create(location: "Stadium Parking To Grand Central Parkway To Roosevelt Ave",
         name: "Flushing Meadow Entrance",
@@ -792,7 +792,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
     Zone.create(location: "w) Van Wyck Expwy To (e&s)College Point Blvd To (n) Al Oerter Parking Lot",
@@ -802,7 +802,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
-        picture_attribution: 'tba',
+        picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
 
@@ -816,8 +816,8 @@ Zone.create(location: "Manhattan Ave, Leonard St, Bayard St, Lorimer St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
+    picture_attribution: 'Chad Nicholson from Brooklyn, USA / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)',
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/McCarren_Park_Pool.jpg')
 
 
 Zone.create(location: "Bayard St, Lorimer St, Driggs Ave, Union Ave",
@@ -827,8 +827,8 @@ Zone.create(location: "Bayard St, Lorimer St, Driggs Ave, Union Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/22053.jpg')
+    picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
 
 
 Zone.create(location: "N 12th St, Driggs Ave, Lorimer St, Bedford Ave",
@@ -838,8 +838,8 @@ Zone.create(location: "N 12th St, Driggs Ave, Lorimer St, Bedford Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17785.jpg')
+    picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
 
 Zone.create(location: "Bedford Ave, N 12th St, Berry St, N 14th St",
@@ -849,8 +849,8 @@ Zone.create(location: "Bedford Ave, N 12th St, Berry St, N 14th St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/17790.jpg')
+    picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
 
 Zone.create(location: "Union Ave, N 12th St, Driggs Ave",
@@ -860,8 +860,8 @@ Zone.create(location: "Union Ave, N 12th St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
+    picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
 
 Zone.create(location: "Bedford And Nassau Aves",
@@ -871,8 +871,8 @@ Zone.create(location: "Bedford And Nassau Aves",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/23828.jpg')
+    picture_attribution: 'Marek Ołdakowski / Public domain',
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Statue_of_Jerzy_Popieluszko%2C_Popiersie_ks._Jerzego_Popie%C5%82uszki_na_Greenpoint_u_zbiegu_Nassau_Ave_i_Bedford_Ave_w_s%C4%85siedztwie_McCarren_Park_%281%29.jpg')
 
 
 Zone.create(location: "Lorimer St, Driggs Ave",
@@ -882,8 +882,8 @@ Zone.create(location: "Lorimer St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
-    picture_attribution: 'tba',
-    picture_url: 'https://www.nycgovparks.org/photo_gallery/full_size/18506.jpg')
+    picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
+    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
 
 # math functions
