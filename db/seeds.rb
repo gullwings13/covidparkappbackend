@@ -528,7 +528,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'CaptJayRuffins / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_Fountains_-_The_Rocket_Thrower.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Unisphere_Fountains_-_The_Rocket_Thrower.jpg')
    
 
 
@@ -543,7 +543,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_44_-_Baseball_Field_13.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_44_-_Baseball_Field_13.jpg')
 
 
 
@@ -556,7 +556,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_27.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_27.jpg')
 
 
 
@@ -580,7 +580,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_47.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_47.jpg')
 
 
 
@@ -593,7 +593,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Playground_for_All_Children_Qns_td_(2019-03-21)_038.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Playground_for_All_Children_Qns_td_%282019-03-21%29_038.jpg')
 
 
     Zone.create(location: "Jewel Ave & Van Wyck Exwy",
@@ -605,6 +605,8 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
+
 
       
     Zone.create(location: "Between Passarelle Building And Fountain Of Planets",
@@ -652,7 +654,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Mauro_Playground_td_(2019-05-05)_114.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/b/b8/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_32.jpg')
 
 
 
@@ -677,7 +679,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_63.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_63.jpg')
 
 
 
@@ -702,7 +704,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Beyond My Ken / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_in_summer.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Unisphere_in_summer.jpg')
 
 
 
@@ -715,7 +717,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Vista_de_Flushing_Meadows_Corona_Park_cerca_de_la_Unisfera_-_panoramio.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Vista_de_Flushing_Meadows_Corona_Park_cerca_de_la_Unisfera_-_panoramio.jpg')
 
 
     Zone.create(location: "Path Of Commerce, Fountain Of The Fairs Prom S, Un Ave S, Path Of Africa",
@@ -727,7 +729,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_10.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_10.jpg')
 
       
     Zone.create(location: "(e) Meadow Lake To (sw) Grand Central Parkway To (se) Van Wyck Expwy ",
@@ -739,7 +741,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_06.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_06.jpg')
 
 
     Zone.create(location: "Path Of Commerce, Fountain Of The Fairs Prom N, Un Ave N",
@@ -751,7 +753,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_12.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_12.jpg')
 
 
     Zone.create(location: "(n) LIE To (s) Meadow Lake To (e) Van Wyck Expwy Extension",
@@ -763,7 +765,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_48.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_48.jpg')
 
 
     Zone.create(location: "(s) LIE To (N of) Asral Fountain",
@@ -808,7 +810,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'CaptJayRuffins / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_Fountains_-_The_Rocket_Thrower_01.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Unisphere_Fountains_-_The_Rocket_Thrower_01.jpg')
 
 
     Zone.create(location: "(n) 45th Ave To (s) 54, 55th Ave To (e) Grand Central Pkwy To (w) 111th St",
@@ -832,7 +834,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'I, GK tramrunner229 / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:1964_New_York_World%27s_Fair_Pavilion_from_the_within_Flushing_Meadows-Corona_Park.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/1964_New_York_World%27s_Fair_Pavilion_from_the_within_Flushing_Meadows-Corona_Park.jpg')
 
 
     Zone.create(location: "(n) Pedestrian Ramp At Roosevelt Av To (s) David Dinkins Circle",
@@ -855,7 +857,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_33.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Flushing_Meadows_Meadow_Lake_td_%282018-05-26%29_33.jpg')
 
 
     Zone.create(location: "(w) Grand Central Prkwy To (e) Olmsted Center To (s) LIRR",
@@ -879,7 +881,7 @@ mccarren_park.save()
         average_not_crowded:-1,
         picture_attribution_link: 'tba',
         picture_attribution: 'Transpoman / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
-        picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Bay.jpg')
+        picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Flushing_Bay.jpg')
 
 
     Zone.create(location: "Stadium Parking To Grand Central Parkway To Roosevelt Ave",
@@ -943,7 +945,7 @@ Zone.create(location: "N 12th St, Driggs Ave, Lorimer St, Bedford Ave",
     average_not_crowded:-1,
     picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
 
 
 
@@ -956,7 +958,7 @@ Zone.create(location: "Bedford Ave, N 12th St, Berry St, N 14th St",
     average_not_crowded:-1,
     picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
 
 
 
@@ -969,7 +971,7 @@ Zone.create(location: "Union Ave, N 12th St, Driggs Ave",
     average_not_crowded:-1,
     picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
 
 
 
@@ -995,7 +997,7 @@ Zone.create(location: "Lorimer St, Driggs Ave",
     picture_attribution_link: 'tba',
 
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
-    picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
+    picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
 
 
 
