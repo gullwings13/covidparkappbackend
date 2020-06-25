@@ -469,6 +469,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'MusikAnimal / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Unisphere_in_Flushing_Meadows-Corona_Park_6_October_2013.jpeg')
 
@@ -479,6 +480,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'CaptJayRuffins / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_Fountains_-_The_Rocket_Thrower.jpg')
 
@@ -491,6 +493,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_44_-_Baseball_Field_13.jpg')
 
@@ -502,6 +505,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_27.jpg')
 
@@ -513,6 +517,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -523,6 +528,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_47.jpg')
 
@@ -534,6 +540,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Playground_for_All_Children_Qns_td_(2019-03-21)_038.jpg')
 
@@ -544,6 +551,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -555,6 +563,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -566,6 +575,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -577,6 +587,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -588,6 +599,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Mauro_Playground_td_(2019-05-05)_114.jpg')
 
@@ -599,6 +611,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_32.jpg')
 
@@ -609,6 +622,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_63.jpg')
 
@@ -620,6 +634,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -631,6 +646,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Beyond My Ken / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_in_summer.jpg')
 
@@ -642,6 +658,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)Pablo Costa Tirado (… / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Vista_de_Flushing_Meadows_Corona_Park_cerca_de_la_Unisfera_-_panoramio.jpg')
 
@@ -652,6 +669,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_10.jpg')
       
@@ -662,6 +680,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_06.jpg')
 
@@ -672,6 +691,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_12.jpg')
 
@@ -682,6 +702,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_48.jpg')
 
@@ -692,6 +713,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -702,6 +724,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -712,6 +735,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -722,6 +746,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'CaptJayRuffins / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Unisphere_Fountains_-_The_Rocket_Thrower_01.jpg')
 
@@ -732,6 +757,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2020/04/09/489r8kom88_Julie_Larsen_Maher_6395_Aviary_exterior_AVI_QZ_08_28_09.jpg')
 
@@ -742,6 +768,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'I, GK tramrunner229 / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:1964_New_York_World%27s_Fair_Pavilion_from_the_within_Flushing_Meadows-Corona_Park.jpg')
 
@@ -752,6 +779,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -762,6 +790,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Tdorante10 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Meadow_Lake_td_(2018-05-26)_33.jpg')
 
@@ -772,6 +801,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -782,6 +812,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'Transpoman / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)',
         picture_url: 'https://commons.wikimedia.org/wiki/File:Flushing_Bay.jpg')
 
@@ -792,6 +823,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -802,6 +834,7 @@ mccarren_park.save()
         average_masks:-1,
         average_distancing:-1,
         average_not_crowded:-1,
+        picture_attribution_link: 'tba',
         picture_attribution: 'JonathanRe (original uploader); Van helsing and DarkEvil (later versions) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)',
         picture_url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flushing_Meadows_Corona_Park.jpg')
 
@@ -816,6 +849,7 @@ Zone.create(location: "Manhattan Ave, Leonard St, Bayard St, Lorimer St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'Chad Nicholson from Brooklyn, USA / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)',
     picture_url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/McCarren_Park_Pool.jpg')
 
@@ -827,6 +861,7 @@ Zone.create(location: "Bayard St, Lorimer St, Driggs Ave, Union Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
     picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
 
@@ -838,6 +873,7 @@ Zone.create(location: "N 12th St, Driggs Ave, Lorimer St, Bedford Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
     picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
@@ -849,6 +885,7 @@ Zone.create(location: "Bedford Ave, N 12th St, Berry St, N 14th St",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
     picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
@@ -860,6 +897,7 @@ Zone.create(location: "Union Ave, N 12th St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
     picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
@@ -871,6 +909,7 @@ Zone.create(location: "Bedford And Nassau Aves",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'Marek Ołdakowski / Public domain',
     picture_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Statue_of_Jerzy_Popieluszko%2C_Popiersie_ks._Jerzego_Popie%C5%82uszki_na_Greenpoint_u_zbiegu_Nassau_Ave_i_Bedford_Ave_w_s%C4%85siedztwie_McCarren_Park_%281%29.jpg')
 
@@ -882,6 +921,7 @@ Zone.create(location: "Lorimer St, Driggs Ave",
     average_masks:-1,
     average_distancing:-1,
     average_not_crowded:-1,
+    picture_attribution_link: 'tba',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
     picture_url: 'https://commons.wikimedia.org/wiki/File:McCarren_Pk_COVID_jeh.jpg')
 
