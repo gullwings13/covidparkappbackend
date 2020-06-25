@@ -55,7 +55,7 @@ mccarren_park = Park.create(
     address:"N. 12 St., Lorimer St., Manhattan Ave. bet. Bayard St. and Berry St. - Nassau Ave",
     link:"https://www.nycgovparks.org/parks/mccarren-park", 
     average_rating:-1,
-    picture_attribution_link:'tba'
+    picture_attribution_link:'http://creativecommons.org/licenses/by-sa/3.0/',
     picture_attribution: 'Jim.henderson / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)',
     picture_url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/McCarren_Pk_COVID_jeh.jpg')
 
