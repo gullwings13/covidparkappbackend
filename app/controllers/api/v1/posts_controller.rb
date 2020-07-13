@@ -63,29 +63,60 @@ class Api::V1::PostsController < ApiController
       params.require(:post).permit(:content, :masks, :not_crowded, :distancing, :user_id, :zone_id)
     end
 
-    def build_average_ratings_park update_park
-        update_park_masks_average = 0.0
-        update_park_distancing_average = 0.0
-        update_park_not_crowded_average = 0.0
+    # def build_average_ratings_park update_park
+    #     update_park_masks_average = 0.0
+    #     update_park_distancing_average = 0.0
+    #     update_park_not_crowded_average = 0.0
 
-        update_park.zones.each do |zone|
+    #     update_park.zones.each do |zone|
+    #         update_park_masks_average += zone.average_masks
+    #         update_park_distancing_average += zone.average_distancing
+    #         update_park_not_crowded_average += zone.average_not_crowded
+    #     end
+
+    #     update_park_masks_average /= update_park.zones.length
+    #     update_park_distancing_average /= update_park.zones.length
+    #     update_park_not_crowded_average /= update_park.zones.length
+
+    #     update_park.average_masks = update_park_masks_average
+    #     update_park.average_distancing = update_park_distancing_average
+    #     update_park.average_not_crowded = update_park_not_crowded_average
+
+    #     update_park_rating = update_park_masks_average+update_park_distancing_average+update_park_not_crowded_average
+    #     update_park.average_rating = update_park_rating/3
+    #     update_park.save
+    # end
+
+  def build_average_ratings_park update_park
+    puts "Calculating ratings for " + update_park.name
+    update_park_masks_average = 0.0
+    update_park_distancing_average = 0.0
+    update_park_not_crowded_average = 0.0
+
+    unrated_count = 0
+
+    update_park.zones.each do |zone|
+        if zone.average_masks >= 0
             update_park_masks_average += zone.average_masks
             update_park_distancing_average += zone.average_distancing
             update_park_not_crowded_average += zone.average_not_crowded
+        elsif zone.average_masks < 0
+            unrated_count+= 1
         end
-
-        update_park_masks_average /= update_park.zones.length
-        update_park_distancing_average /= update_park.zones.length
-        update_park_not_crowded_average /= update_park.zones.length
-
-        update_park.average_masks = update_park_masks_average
-        update_park.average_distancing = update_park_distancing_average
-        update_park.average_not_crowded = update_park_not_crowded_average
-
-        update_park_rating = update_park_masks_average+update_park_distancing_average+update_park_not_crowded_average
-        update_park.average_rating = update_park_rating/3
-        update_park.save
     end
+
+    update_park_masks_average /= (update_park.zones.length - unrated_count)
+    update_park_distancing_average /= (update_park.zones.length - unrated_count)
+    update_park_not_crowded_average /= (update_park.zones.length - unrated_count)
+
+    update_park.average_masks = update_park_masks_average
+    update_park.average_distancing = update_park_distancing_average
+    update_park.average_not_crowded = update_park_not_crowded_average
+
+    update_park_rating = update_park_masks_average+update_park_distancing_average+update_park_not_crowded_average
+    update_park.average_rating = update_park_rating/3
+    update_park.save
+  end
 
 
     def build_average_ratings_zone update_zone
