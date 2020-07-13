@@ -4,7 +4,7 @@ class Api::V1::ParksController < ApiController
 
   # GET /parks
   def index
-    @parks = Park.all
+    @parks = Park.all.order(:name)
 
     render json: @parks
   end
@@ -12,6 +12,9 @@ class Api::V1::ParksController < ApiController
   # GET /parks/1
   def show
     render json: @park, include: :zones
+    # render json: @park, :include => {:zones => {order: :name}} //works
+    # render json: @park, :include => {:zones => {order: :name}}
+    # render json: @zone, :include => {:posts => {:include => {:user => {:only => [:name, :picture_url]}}}}
   end
 
   # POST /parks
