@@ -167,7 +167,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionpack (>= 6.0.3.2)
   bootsnap (>= 1.4.2)
   byebug
   devise
